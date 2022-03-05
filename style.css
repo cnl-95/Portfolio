@@ -9,6 +9,7 @@
 footer {
     background-color:;
     margin-top: 30px;
+    
 }
 
 a {
@@ -37,9 +38,14 @@ h1 {
 h2 {
     text-align: left;
     font-variant: small-caps;
-    font-size: 30px;
+    font-size: 36px;
     padding: 10px 0 10px 0;
     text-decoration:;
+    margin-bottom: 100px;
+    padding-left: 10px;
+    background-color: #000901;
+    color: white;
+    font-weight: lighter;
     
     
 }
@@ -54,6 +60,21 @@ p {
 b {
     font-size: 28px;
 }
+
+ul{
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+li {
+    font-size: 30px;
+    text-align: justify;
+    display: inline-block;
+    padding: 0 70px 0 70px;
+    color: #36454F;
+}
+
+
 
 .header {
     
@@ -82,6 +103,7 @@ b {
     
 }
 
+
 #avatar {
     display: inline-block;
     margin-left: auto;
@@ -109,7 +131,7 @@ b {
     width: 400px;
     display: -ms-flexbox;
     flex-wrap: wrap;
-   margin: 0;
+    margin: 0;
     align-items: center;
    
     
@@ -129,6 +151,36 @@ b {
     max-width: 700px center;
     text-align: ;
     
+    
+}
+
+#myprojectsimg {
+    height: 300px;
+    width: 400px;
+    display: -ms-flexbox;
+    flex-wrap: wrap;
+    margin: 0;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    position: ;
+    border: #000901 10px solid;
+   
+    
+}
+
+#myprojectsimgfirst {
+    height: 350px;
+    width: 450px;
+    display: -ms-flexbox;
+    flex-wrap: wrap;
+    margin: 0;
+    align-items: center;
+    border: #000901 10px solid;
+    
+    
+   
+    
 }
 
 #contact {
@@ -137,4 +189,12 @@ b {
     max-width: 700px center;
     text-align: ;
     
+    
 }
+
+#contactlink:hover {
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+
